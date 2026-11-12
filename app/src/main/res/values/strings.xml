@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bengal Samp</string>
+    <string name="subtitle">SAMP সার্ভারে ঢোকার লঞ্চার — PLAY চাপলেই সরাসরি গেমে ঢুকবে</string>
+
+    <string name="how_to_title">কীভাবে খেলবে?</string>
+    <string name="how_to_text">১. নিচে তোমার নাম লেখো।\n২. UPDATE চাপো — গেম ফাইল ডাউনলোড হতে দাও।\n৩. ডাউনলোড শেষ হলে PLAY চাপো — সরাসরি সার্ভারে ঢুকে খেলো।</string>
+
+    <string name="nickname_label">তোমার নাম (গেমে দেখাবে)</string>
+    <string name="nickname_hint">যেমন: Shahriar_Ahad</string>
+
+    <string name="server_label">সার্ভার বেছে নাও</string>
+    <string name="server_ip_label">IP: —</string>
+    <string name="server_players_label">খেলোয়াড়: —</string>
+    <string name="server_mode_label">মোড: —</string>
+    <string name="sample_warning">⚠️ এটা নমুনা সার্ভার — আসল IP এখনো বসানো হয়নি।</string>
+
+    <string name="update_button">⬇ UPDATE — গেম ফাইল ডাউনলোড করো</string>
+    <string name="update_button_downloading">ডাউনলোড হচ্ছে…</string>
+    <string name="update_button_retry">↻ আবার ডাউনলোড করো</string>
+    <string name="cancel_button">✕ বাতিল করো</string>
+    <string name="download_description">Bengal Samp গেম ফাইল ডাউনলোড হচ্ছে</string>
+
+    <string name="play_button">▶ PLAY — গেমে ঢোকো</string>
+    <string name="copy_ip_button">📋 সার্ভারের IP কপি করো</string>
+
+    <string name="add_server_title">নিজের সার্ভার যোগ করো</string>
+    <string name="custom_name_hint">সার্ভারের নাম (যেমন: আমার সার্ভার)</string>
+    <string name="custom_ip_hint">IP:Port (যেমন: 103.45.67.89:7777)</string>
+    <string name="add_server_button">＋ সার্ভার যোগ করো</string>
+
+    <string name="discord_button">💬 Discord-এ যোগ দাও — HighPixel</string>
+
+    <string name="status_ready">প্রস্তুত — প্রথমে UPDATE চাপো।</string>
+    <string name="status_downloading">ডাউনলোড হচ্ছে… ফোন বন্ধ করো না।</string>
+    <string name="status_downloaded">ডাউনলোড শেষ! এখন PLAY চাপো।</string>
+    <string name="status_no_file">গেম ফাইল এখনো ডাউনলোড হয়নি।</string>
+    <string name="game_file_ready">গেম ফাইল তৈরি আছে (%1$s)</string>
+
+    <string name="error_no_internet">ইন্টারনেট নেই — Wi-Fi বা মোবাইল ডেটা চালু করে আবার চেষ্টা করো।</string>
+    <string name="error_download_failed">ডাউনলোড হয়নি — ইন্টারনেট দেখে আবার UPDATE চাপো।</string>
+    <string name="error_url_not_set">ডাউনলোড লিংক বসানো হয়নি</string>
+    <string name="error_url_not_set_message">এই অ্যাপে এখনো আসল গেম ফাইলের লিংক বসানো হয়নি। Config.kt ফাইলে GAME_FILES_URL-এ তোমার GitHub Releases লিংক বসাতে হবে।</string>
+
+    <string name="dialog_game_app_title">গেম অ্যাপ দরকার</string>
+    <string name="dialog_game_app_message">খেলতে গেম অ্যাপটি ফোনে লাগবে। এক চাপে ডাউনলোড করে নাও, তারপর আবার PLAY চাপো।</string>
+    <string name="dialog_download_game_app">⬇ ডাউনলোড করো</string>
+
+    <string name="toast_nickname_needed">আগে তোমার নাম লেখো।</string>
+    <string name="toast_ip_copied">সার্ভারের IP কপি হয়েছে।</string>
+    <string name="toast_opening_game">গেমে ঢোকা হচ্ছে…</string>
+    <string name="toast_server_added">সার্ভার যোগ হয়েছে।</string>
+    <string name="toast_invalid_ip">সঠিক IP:Port লেখো, যেমন: 103.45.67.89:7777</string>
+
+    <string name="footer_note">Bengal Samp লঞ্চার • PLAY চাপলেই সরাসরি গেমে ঢুকবে</string>
+</resources>
