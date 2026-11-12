@@ -21,9 +21,9 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
+      # Runner-এ Android SDK আগে থেকেই থাকে, আলাদা setup লাগে না।
+      # (আগে android-actions/setup-android@v3 ছিল — ওটা পুরনো "tools"
+      # প্যাকেজ খুঁজে ব্যর্থ হতো, তাই বাদ দেওয়া হলো।)
       - name: Set up Gradle 8.2
         uses: gradle/actions/setup-gradle@v3
         with:
