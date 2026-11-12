@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bengalsamp.launcher">
+
+    <!-- Internet: needed to download the game files and to open links. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Check whether the phone is online before starting a download. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--
+        Package visibility (Android 11+): lets the launcher check whether
+        the ReSA / Alyn SAMP client is installed, without any extra
+        permission. Only the listed packages are visible to this app.
+    -->
+    <queries>
+        <package android:name="ro.alynsampmobile.launcher" />
+        <!-- samp:// join লিংক ধরে এমন অ্যাপ খুঁজতে (Android 11+): -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="samp" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BengalSamp">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
