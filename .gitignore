@@ -1,0 +1,23 @@
+# Android / Gradle
+*.iml
+.gradle/
+local.properties
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Android Studio
+.idea/
+*.jks
+*.keystore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Downloaded game files — NEVER commit these
+*.zip
+*.obb
+*.apk
+!gradle/wrapper/gradle-wrapper.jar
